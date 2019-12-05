@@ -3,7 +3,8 @@
         "blocks": [
             "flex-layout.row#about-us",
             "tab-layout",
-            "tab-layout#home"
+            "tab-layout#home",
+            "iframe"
         ]
      },
      
