@@ -26,6 +26,7 @@
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
       "blockClass": "vintage" 
+      // TESTE
     }
   },
   "info-card#button-left": {
