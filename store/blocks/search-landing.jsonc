@@ -1,0 +1,21 @@
+{
+    "store.custom#landing": { 
+      "blocks": [
+        "image#landingbanner", 
+        "search-result-layout.customQuery"
+      ]
+    },
+
+    "image#landingbanner":{
+
+    },
+    "search-result-layout.customQuery" : {
+        "props" : {
+            "orderByField" : "OrderByReleaseDateDESC",
+            "hideUnavailableItems" : true,
+            "maxItemsPerPage" : 8,
+            "SkusFilterEnum" : "Blue Top Retro Camera",
+            "mapField" : "ft"
+        }
+    }
+  }
