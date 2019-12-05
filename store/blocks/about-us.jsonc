@@ -133,7 +133,7 @@
 
     "tab-content#home" : {
         "children":[
-            "tab-content.item#1"
+            "tab-content.item"
         ],
         "props": {
             "tabId": "tab-content#home",
@@ -141,16 +141,16 @@
           }
     },
 
-    "tab-list.item#home2": {
-        "children":[
-            "tab-content.item#2"
-        ],
-        "props": {
-            "tabId": "electronics",
-            "label": "Electronics"
-          }
-    },
-    "tab-content.item#1": {
+    // "tab-list.item#home2": {
+    //     "children":[
+    //         "tab-content.item#2"
+    //     ],
+    //     "props": {
+    //         "tabId": "electronics",
+    //         "label": "Electronics"
+    //       }
+    // },
+    "tab-content.item": {
         "children": [
           "rich-text#1"
         ],
@@ -159,14 +159,14 @@
         }
       },
 
-    "tab-content.item#2": {
-        "children": [
-          "rich-text#2"
-        ],
-        "props": {
-          "tabId": "electronics"
-        }
-      },
+    // "tab-content.item#2": {
+    //     "children": [
+    //       "rich-text#2"
+    //     ],
+    //     "props": {
+    //       "tabId": "electronics"
+    //     }
+    //   },
 
     "rich-text#1": {
         "props": {
@@ -174,13 +174,13 @@
           "textPosition": "CENTER",
           "font": "t-heading-3"
         }
-      },
-    "rich-text#2": {
-        "props": {
-          "text": "Texto para Electronics",
-          "textPosition": "CENTER",
-          "font": "t-heading-3"
-        }
       }
+    // "rich-text#2": {
+    //     "props": {
+    //       "text": "Texto para Electronics",
+    //       "textPosition": "CENTER",
+    //       "font": "t-heading-3"
+    //     }
+    //   }
 
 }
