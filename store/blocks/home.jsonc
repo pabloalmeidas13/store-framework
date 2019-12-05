@@ -9,7 +9,7 @@
       "text": "**Hello, World! - WEVO**",
       "textPosition": "RIGHT",
       "textColor": "black",
-      // 22"font": "t-heading-5"
+      "font": "t-heading-5"
     }
   }
 }
