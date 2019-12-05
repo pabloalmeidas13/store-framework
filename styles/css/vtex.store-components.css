@@ -4,9 +4,6 @@
     font-weight: bold;
     color: black;
     border: 2px solid black;
-    padding: 24px;
-    
-    margin:0 auto;
     padding:0;
 }
 
@@ -36,4 +33,6 @@
     max-width:1260px;
     color: black;
     font-weight: bold;
+    padding: 24px;
+    margin:0 auto;
 }
