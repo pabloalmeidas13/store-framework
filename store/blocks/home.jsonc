@@ -5,7 +5,8 @@
       "info-card#button-right",
       "info-card#button-left",
       "flex-layout.row",
-      "shelf"
+      "shelf",
+      "slider-layout#home"
     ]
   },
   "rich-text":{
@@ -81,6 +82,18 @@
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
       "maxWidth": "100%"
     }
+  },
+
+
+  "slider-layout#home": {
+    "children": ["info-card#1", "info-card#2", "info-card#3", "info-card#4", "info-card#5", "info-card#6"],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    }
   }
+
 
 }
