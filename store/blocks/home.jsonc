@@ -89,7 +89,7 @@
     "children": ["info-card#1", "info-card#2", "info-card#3", "info-card#4", "info-card#5", "info-card#6"],
     "props": {
       "autoplay": {
-        "timeout": 5000,
+        "timeout": 7000,
         "stopOnHover": false
       }
     }
