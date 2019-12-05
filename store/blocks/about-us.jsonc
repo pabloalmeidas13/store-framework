@@ -108,11 +108,11 @@
     //       "font": "t-heading-3"
     //     }
     //   },
-      "iframe": {
+    "iframe": {
         "props": {
             "src": "https://www.instagram.com/p/B37Zfd6FobU/embed",
             "width": "800px",
-            "heigth": "1000px"
+            "height": "1000px"
         }
     }
 
