@@ -2,9 +2,11 @@
     font-family: serif;
     font-size: 2.25rem;
     font-weight: bold;
-    color: black;
+    color: gray;
     border: 2px solid black;
     padding:0;
+    padding: 24px;
+    margin:0 auto;
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
