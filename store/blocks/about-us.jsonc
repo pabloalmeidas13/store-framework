@@ -105,44 +105,44 @@
 
 
 
-    "tab-layout#home":{
-        "children" : [
-            "tab-list#home",
-            "tab-content#home"
-        ]
-      },
+    // "tab-layout#home":{
+    //     "children" : [
+    //         "tab-list#home",
+    //         "tab-content#home"
+    //     ]
+    //   },
 
-      "tab-list#home" : {
-          "children":[
-              "tab-list.item#home1",
-              "tab-list.item#home2"
-        ],
-        "props": {
-            "tabId": "tab-list#home",
-            "label": "tab-list#home"
-          }
-      },
+    //   "tab-list#home" : {
+    //       "children":[
+    //           "tab-list.item#home1",
+    //           "tab-list.item#home2"
+    //     ],
+    //     "props": {
+    //         "tabId": "tab-list#home",
+    //         "label": "tab-list#home"
+    //       }
+    //   },
 
-    "tab-list.item#home1" : {
-        "props": {
-            "tabId": "majorAppliances",
-            "label": "Major Appliances",
-            "defaultActiveTab" : true
-          }
-    },
+    // "tab-list.item#home1" : {
+    //     "props": {
+    //         "tabId": "majorAppliances",
+    //         "label": "Major Appliances",
+    //         "defaultActiveTab" : true
+    //       }
+    // },
 
-    "tab-content#home" : {
-        "children":[
-            "tab-content.item"
-        ],
-        "props": {
-            "tabId": "tab-content#home",
-            "label": "tab-content#home"
-          }
-    },
+    // "tab-content#home" : {
+    //     "children":[
+    //         "tab-content.item"
+    //     ],
+    //     "props": {
+    //         "tabId": "tab-content#home",
+    //         "label": "tab-content#home"
+    //       }
+    // },
 
     // "tab-list.item#home2": {
-    //     "children":[
+    //     "blocks":[
     //         "tab-content.item#2"
     //     ],
     //     "props": {
@@ -150,14 +150,14 @@
     //         "label": "Electronics"
     //       }
     // },
-    "tab-content.item": {
-        "children": [
-          "rich-text#1"
-        ],
-        "props": {
-          "tabId": "majorAppliances"
-        }
-      },
+    // "tab-content.item": {
+    //     "children": [
+    //       "rich-text#1"
+    //     ],
+    //     "props": {
+    //       "tabId": "majorAppliances"
+    //     }
+    //   },
 
     // "tab-content.item#2": {
     //     "children": [
@@ -168,13 +168,13 @@
     //     }
     //   },
 
-    "rich-text#1": {
-        "props": {
-          "text": "Texto para Major Appliances",
-          "textPosition": "CENTER",
-          "font": "t-heading-3"
-        }
-      }
+    // "rich-text#1": {
+    //     "props": {
+    //       "text": "Texto para Major Appliances",
+    //       "textPosition": "CENTER",
+    //       "font": "t-heading-3"
+    //     }
+    //   },
     // "rich-text#2": {
     //     "props": {
     //       "text": "Texto para Electronics",
@@ -182,5 +182,63 @@
     //       "font": "t-heading-3"
     //     }
     //   }
+
+
+
+    "tab-layout#home": {
+        "children": [
+          "tab-list#home",
+          "tab-content#home"
+        ],
+        "props": {
+          "blockClass": "home",
+          "defaultActiveTabId": "home1"
+        }
+      },
+      "tab-list#home": {
+        "children": [
+          "tab-list.item#home1",
+          "tab-list.item#home2"
+          ]
+      },
+      "tab-list.item#home1": {
+        "props": {
+          "tabId": "majorAppliances",
+          "label": "Major Appliances",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#home2": {
+        "props": {
+          "tabId": "home2",
+          "label": "Home 2"
+        }
+      },
+      "tab-content#home": {
+        "children": [
+          "tab-content.item#home1",
+          "tab-content.item#home2"
+        ]
+      },
+      "tab-content.item#home1": {
+        "children": [
+        //   "carousel#home"
+        ],
+        "props": {
+          "tabId": "home1"
+        }
+      },
+      "tab-content.item#home2": {
+        "children": [
+        //   "shelf#home",
+        //   "info-card#home",
+        //   "rich-text#question",
+        //   "rich-text#link",
+        //   "newsletter"
+        ],
+        "props": {
+          "tabId": "home2"
+        }
+      }
 
 }
