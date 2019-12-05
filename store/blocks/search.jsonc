@@ -23,8 +23,10 @@
     ],
     "props" : {
       "showProductsCount" : true,
-      "preventRouteChange" : true
+      "preventRouteChange" : true,
+      "pagination": "show-more"
     }
+    
   }
 
 
