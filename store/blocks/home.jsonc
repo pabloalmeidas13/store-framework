@@ -1,7 +1,15 @@
 {
   "store.home": { 
     "blocks": [
-      
+      "rich-text"
     ]
+  },
+  "rich-text":{
+    "props": {
+      "text": "**Hello, World! - WEVO**",
+      "textPosition": "RIGHT",
+      "textColor": "black",
+      "font": "t-heading-5"
+    }
   }
 }
