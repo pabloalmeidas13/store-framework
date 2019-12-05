@@ -41,137 +41,6 @@
         }
     },
 
-    // "tab-layout": {
-    //     "children": [
-    //         "tab-list",
-    //         "tab-content"
-    //     ]
-    // },
-    // "tab-list": {
-    //     "children": [
-    //         "tab-list.item#1",
-    //         "tab-list.item#2"
-    //     ]
-    // },
-    // "tab-content": {
-    //     "children": [
-    //         "tab-content.item#1",
-    //         "tab-content.item#2"
-    //     ]
-    // },
-    // "tab-list.item#1": {
-    //     "props": {
-    //       "tabId": "majorAppliances",
-    //       "label": "Major Appliances",
-    //       "defaultActiveTab": true
-    //     }
-    //   },
-    //   "tab-list.item#2": {
-    //     "props": {
-    //       "tabId": "electronics",
-    //       "label": "Electronics"
-    //     }
-    //   },
-    //   "tab-content.item#1": {
-    //     "children": [
-    //       "rich-text#1"
-    //     ],
-    //     "props": {
-    //       "tabId": "majorAppliances"
-    //     }
-    //   },
-    //   "tab-content.item#2": {
-    //     "children": [
-    //       "rich-text#2"
-    //     ],
-    //     "props": {
-    //       "tabId": "electronics"
-    //     }
-    //   },
-    //   "rich-text#1": {
-    //     "props": {
-    //       "text": "Texto para Major Appliances",
-    //       "textPosition": "CENTER",
-    //       "font": "t-heading-3"
-    //     }
-    //   },
-    //   "rich-text#2": {
-    //     "props": {
-    //       "text": "Texto para Electronics",
-    //       "textPosition": "CENTER",
-    //       "font": "t-heading-3"
-    //     }
-    //   },
-
-
-
-    // "tab-layout#home":{
-    //     "children" : [
-    //         "tab-list#home",
-    //         "tab-content#home"
-    //     ]
-    //   },
-
-    //   "tab-list#home" : {
-    //       "children":[
-    //           "tab-list.item#home1",
-    //           "tab-list.item#home2"
-    //     ],
-    //     "props": {
-    //         "tabId": "tab-list#home",
-    //         "label": "tab-list#home"
-    //       }
-    //   },
-
-    // "tab-list.item#home1" : {
-    //     "props": {
-    //         "tabId": "majorAppliances",
-    //         "label": "Major Appliances",
-    //         "defaultActiveTab" : true
-    //       }
-    // },
-
-    // "tab-content#home" : {
-    //     "children":[
-    //         "tab-content.item"
-    //     ],
-    //     "props": {
-    //         "tabId": "tab-content#home",
-    //         "label": "tab-content#home"
-    //       }
-    // },
-
-    // "tab-list.item#home2": {
-    //     "blocks":[
-    //         "tab-content.item#2"
-    //     ],
-    //     "props": {
-    //         "tabId": "electronics",
-    //         "label": "Electronics"
-    //       }
-    // },
-    // "tab-content.item": {
-    //     "children": [
-    //       "rich-text#1"
-    //     ],
-    //     "props": {
-    //       "tabId": "majorAppliances"
-    //     }
-    //   },
-
-    // "tab-content.item#2": {
-    //     "children": [
-    //       "rich-text#2"
-    //     ],
-    //     "props": {
-    //       "tabId": "electronics"
-    //     }
-    //   },
-
-
-
-
-
     "tab-layout#home": {
         "children": [
           "tab-list#home",
@@ -191,7 +60,7 @@
       "tab-list.item#home1": {
         "props": {
           "tabId": "majorAppliances",
-          "label": "Major Appliances",
+          "label": "Sobre",
           "defaultActiveTab": true
         }
       },
@@ -226,7 +95,7 @@
 
       "rich-text#home1": {
         "props": {
-          "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
+          "text": "# **Nossa História** \n ### **Nascemos de uma hackathon interna da VTEX!** \n Isso mesmo. A primeira Hackatheme (hackathon de temas de loja) da VTEX teve 3 finalistas. Um deles foi a FlatFlat, essa loja que vocês estão acessando agora. A FlatFlat foi criada pelos engenheiros Afonso Praça e Sávio Muniz, pelos designers Lucas Falcão e Augusto Barbosa, e pelo diretor de novos negócios Maurício Baum. Como a loja foi criada por profissionais com os mais diversos backgrounds, o resultado ficou óbvio: foram finalistas com o layout mais legal dentre os participantes.",
           "textPosition": "CENTER",
           "font": "t-heading-3"
         }
