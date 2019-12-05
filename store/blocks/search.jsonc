@@ -22,7 +22,8 @@
       "search-fetch-more"
     ],
     "props" : {
-      "showProductsCount" : true
+      "showProductsCount" : true,
+      "preventRouteChange" : true
     }
   }
 
