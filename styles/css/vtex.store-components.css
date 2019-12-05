@@ -35,4 +35,5 @@
 .infoCardContainer {
     max-width:1260px;
     color: black;
+    font-weight: bold;
 }
