@@ -32,13 +32,13 @@
   },
 
   "flex-layout.col#left": {
-    "children": [
-      "product-images"
-    ],
     "props":{
       "verticalAlign" : "CENTER",
       "preventVerticalStretch" : true
-    }
+    },
+    "children": [
+      "product-images"
+    ]
   },
 
   "flex-layout.col#right": {
