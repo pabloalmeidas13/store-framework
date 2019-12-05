@@ -40,9 +40,9 @@
 
 .infoCardContainer {
     
-    color: black;
-    font-weight: bold;
-    padding: 24px;
+    /* color: black;
+    font-weight: bold; */
+    padding: 0;
     max-width:1260px;
     margin:0 auto;
 }
