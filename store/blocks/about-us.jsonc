@@ -210,8 +210,8 @@
       },
       "tab-list.item#home2": {
         "props": {
-          "tabId": "home2",
-          "label": "Home 2"
+          "tabId": "electronics",
+          "label": "Electronics"
         }
       },
       "tab-content#home": {
